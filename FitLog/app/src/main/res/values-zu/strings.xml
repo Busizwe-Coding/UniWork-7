@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitLog</string>
+
+    <string name="tagline">Landelela ukuzivocavoca kwakho, noma kuphi.</string>
+    <string name="email">I-imeyili</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="username">Igama lomsebenzisi</string>
+    <string name="log_in">NGENA</string>
+    <string name="register">BHALISA</string>
+    <string name="continue_with">noma qhubeka nge</string>
+    <string name="sign_in_google">Ngena nge-Google</string>
+    <string name="no_account">Awunayo i-akhawunti? Bhalisa</string>
+    <string name="have_account">Usunayo i-akhawunti? Ngena</string>
+    <string name="invalid_email">Faka ikheli le-imeyili elisebenzayo</string>
+    <string name="password_too_short">Iphasiwedi kufanele ibe okungenani izinhlamvu ezingu-8</string>
+    <string name="login_failed">Ukungena kuhlulekile. Hlola i-imeyili nephasiwedi yakho.</string>
+
+    <string name="welcome_back">Siyakwamukela futhi, %1$s</string>
+    <string name="this_week">Kuleli sonto</string>
+    <string name="start_workout">+ QALA UKUZIVOCAVOCA</string>
+    <string name="recent_workouts">Ukuzivocavoca kwakamuva</string>
+
+    <string name="finish_workout">QEDA UKUZIVOCAVOCA</string>
+    <string name="add_set">+ Engeza iseti</string>
+    <string name="rest_timer">Isikhathi sokuphumula</string>
+
+    <string name="settings">Izilungiselelo</string>
+    <string name="push_notifications">Izaziso</string>
+    <string name="language">Ulimi</string>
+    <string name="units">Amayunithi</string>
+    <string name="sync_now">Vumelanisa manje</string>
+    <string name="log_out">Phuma</string>
+    <string name="sync_success">Kuvumelaniswe ngempumelelo</string>
+    <string name="sync_failed">Ukuvumelanisa kuhlulekile — kuzozama futhi uma kuxhunyiwe</string>
+
+    <string name="nav_home">Ekhaya</string>
+    <string name="nav_history">Umlando</string>
+    <string name="nav_settings">Izilungiselelo</string>
+    <string name="nav_profile">Iphrofayili</string>
+</resources>

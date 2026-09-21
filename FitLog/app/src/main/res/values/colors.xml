@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fitlog_green">#20D200</color>
+    <color name="fitlog_green_dark">#109600</color>
+    <color name="fitlog_green_light">#92FF6E</color>
+    <color name="fitlog_yellow">#FFEE00</color>
+    <color name="fitlog_red">#ED3636</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#191919</color>
+</resources>

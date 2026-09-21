@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitLog</string>
+
+    <string name="tagline">Volg jou oefening, oral.</string>
+    <string name="email">E-pos</string>
+    <string name="password">Wagwoord</string>
+    <string name="username">Gebruikersnaam</string>
+    <string name="log_in">TEKEN IN</string>
+    <string name="register">REGISTREER</string>
+    <string name="continue_with">of gaan voort met</string>
+    <string name="sign_in_google">Teken in met Google</string>
+    <string name="no_account">Het jy nie \'n rekening nie? Registreer</string>
+    <string name="have_account">Het jy reeds \'n rekening? Teken in</string>
+    <string name="invalid_email">Voer \'n geldige e-posadres in</string>
+    <string name="password_too_short">Wagwoord moet minstens 8 karakters wees</string>
+    <string name="login_failed">Aanmelding het misluk. Gaan jou e-pos en wagwoord na.</string>
+
+    <string name="welcome_back">Welkom terug, %1$s</string>
+    <string name="this_week">Hierdie week</string>
+    <string name="start_workout">+ BEGIN OEFENING</string>
+    <string name="recent_workouts">Onlangse oefeninge</string>
+
+    <string name="finish_workout">VOLTOOI OEFENING</string>
+    <string name="add_set">+ Voeg stel by</string>
+    <string name="rest_timer">Rustydhouer</string>
+
+    <string name="settings">Instellings</string>
+    <string name="push_notifications">Kennisgewings</string>
+    <string name="language">Taal</string>
+    <string name="units">Eenhede</string>
+    <string name="sync_now">Sinkroniseer nou</string>
+    <string name="log_out">Teken uit</string>
+    <string name="sync_success">Suksesvol gesinkroniseer</string>
+    <string name="sync_failed">Sinkronisasie het misluk — sal weer probeer wanneer aanlyn</string>
+
+    <string name="nav_home">Tuis</string>
+    <string name="nav_history">Geskiedenis</string>
+    <string name="nav_settings">Instellings</string>
+    <string name="nav_profile">Profiel</string>
+</resources>
