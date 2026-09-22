@@ -150,6 +150,18 @@ Select an Android emulator or connected Android device.
 
 Then run the `app` configuration.
 
+## GitHub and Git Bash Utilisation
+
+GitHub is used as the version control and remote repository platform for FitLog. The project source code is stored in a GitHub repository so that changes to the Android application can be backed up and tracked over time.
+
+Git Bash is used to push changes from the local FitLog project to the GitHub repository. The Git Bash workflow used for this project is limited to committing and pushing code changes.
+
+GitHub Repository
+
+The GitHub repository serves as the remote location for the FitLog source code. It provides a central location for storing the project and maintaining a history of code changes.
+
+Git Bash is used only for pushing the completed local changes to GitHub. Development and code modifications are performed in Android Studio.
+
 
 ## License
 
