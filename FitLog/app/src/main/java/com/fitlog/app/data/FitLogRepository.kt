@@ -2,53 +2,71 @@ package com.fitlog.app.data
 
 import android.content.Context
 import kotlinx.coroutines.flow.Flow
-import java.util.UUID
+import kotlinx.coroutines.flow.flowOf
 
 class FitLogRepository(context: Context) {
     private val db = FitLogDatabase.get(context)
-    val workouts: Flow<List<WorkoutEntity>> = db.workoutDao().observeWorkouts()
-    val exercises: Flow<List<ExerciseEntity>> = db.exerciseDao().observeExercises()
-    val user: Flow<UserEntity?> = db.userDao().observeUser()
 
-    suspend fun ensureSeedData() {
-        val current = db.userDao().observeUser()
-        val seedUser = UserEntity("local-user", "Alex", "alex@email.com")
-        db.userDao().upsert(seedUser)
-        db.exerciseDao().insertAll(
-            listOf(
-                ExerciseEntity("bench", "Bench Press"),
-                ExerciseEntity("incline", "Incline Dumbbell Press"),
-                ExerciseEntity("overhead", "Overhead Press"),
-                ExerciseEntity("pushup", "Push-Up"),
-                ExerciseEntity("fly", "Cable Fly"),
-                ExerciseEntity("squat", "Squat"),
-                ExerciseEntity("deadlift", "Deadlift")
-            )
-        )
-        if (db.workoutDao().getById("seed-push") == null) {
-            val now = System.currentTimeMillis()
-            val workout = WorkoutEntity("seed-push", seedUser.id, "Push Day", now - 86400000L, 42 * 60, syncStatus = "SYNCED")
-            db.workoutDao().upsert(workout)
-            db.workoutDao().upsertSets(
-                listOf(
-                    WorkoutSetEntity(UUID.randomUUID().toString(), workout.id, "bench", 1, 6, 65f, "SYNCED"),
-                    WorkoutSetEntity(UUID.randomUUID().toString(), workout.id, "bench", 2, 6, 60f, "SYNCED"),
-                    WorkoutSetEntity(UUID.randomUUID().toString(), workout.id, "bench", 3, 6, 60f, "SYNCED"),
-                    WorkoutSetEntity(UUID.randomUUID().toString(), workout.id, "incline", 1, 10, 24f, "SYNCED"),
-                    WorkoutSetEntity(UUID.randomUUID().toString(), workout.id, "incline", 2, 10, 24f, "SYNCED"),
-                    WorkoutSetEntity(UUID.randomUUID().toString(), workout.id, "incline", 3, 10, 24f, "SYNCED"),
-                    WorkoutSetEntity(UUID.randomUUID().toString(), workout.id, "fly", 1, 12, 18f, "SYNCED"),
-                    WorkoutSetEntity(UUID.randomUUID().toString(), workout.id, "fly", 2, 12, 18f, "SYNCED"),
-                    WorkoutSetEntity(UUID.randomUUID().toString(), workout.id, "fly", 3, 12, 18f, "SYNCED")
-                )
-            )
-        }
+    val exercises: Flow<List<ExerciseEntity>> = db.exerciseDao().observeExercises()
+
+    fun workoutsForUser(userId: String): Flow<List<WorkoutEntity>> {
+        if (userId.isBlank()) return flowOf(emptyList())
+        return db.workoutDao().observeWorkouts(userId)
     }
+
+    fun setsForUser(userId: String): Flow<List<WorkoutSetEntity>> {
+        if (userId.isBlank()) return flowOf(emptyList())
+        return db.workoutDao().observeSetsForUser(userId)
+    }
+
+    fun observeUser(userId: String): Flow<UserEntity?> {
+        if (userId.isBlank()) return flowOf(null)
+        return db.userDao().observeUserById(userId)
+    }
+
+    suspend fun getUserByEmail(email: String): UserEntity? = db.userDao().getByEmail(email.lowercase().trim())
+    suspend fun upsertUser(user: UserEntity) = db.userDao().upsert(user)
 
     suspend fun saveWorkout(workout: WorkoutEntity, sets: List<WorkoutSetEntity>) {
         db.workoutDao().upsert(workout.copy(syncStatus = "PENDING"))
         db.workoutDao().upsertSets(sets.map { it.copy(syncStatus = "PENDING") })
     }
 
-    suspend fun getWorkout(id: String): Pair<WorkoutEntity?, List<WorkoutSetEntity>> = db.workoutDao().getById(id) to db.workoutDao().getSets(id)
+    suspend fun getWorkout(id: String): Pair<WorkoutEntity?, List<WorkoutSetEntity>> =
+        db.workoutDao().getById(id) to db.workoutDao().getSets(id)
+
+    suspend fun deleteWorkout(id: String) {
+        db.workoutDao().deleteSetsForWorkout(id)
+        db.workoutDao().deleteWorkout(id)
+    }
+
+    suspend fun deleteSet(id: String) = db.workoutDao().deleteSet(id)
+
+    /** "Last time" data for auto-fill — most recent logged sets for this
+     *  exercise, newest first. */
+    suspend fun getRecentSetsForExercise(userId: String, exerciseId: String, limit: Int = 3): List<WorkoutSetEntity> =
+        db.workoutDao().getRecentSetsForExercise(userId, exerciseId, limit)
+
+    /** Reference exercise catalogue — not user-specific, safe to reseed on
+     *  every launch (REPLACE is idempotent for identical rows). */
+    suspend fun ensureExercisesSeeded() {
+        db.exerciseDao().insertAll(DEFAULT_EXERCISES)
+    }
+
+    companion object {
+        val DEFAULT_EXERCISES = listOf(
+            ExerciseEntity("bench", "Bench Press", "Chest"),
+            ExerciseEntity("incline", "Incline Dumbbell Press", "Chest"),
+            ExerciseEntity("fly", "Cable Fly", "Chest"),
+            ExerciseEntity("pushup", "Push-Up", "Chest"),
+            ExerciseEntity("overhead", "Overhead Press", "Shoulders"),
+            ExerciseEntity("squat", "Squat", "Legs"),
+            ExerciseEntity("legpress", "Leg Press", "Legs"),
+            ExerciseEntity("deadlift", "Deadlift", "Back"),
+            ExerciseEntity("row", "Barbell Row", "Back"),
+            ExerciseEntity("pullup", "Pull-Up", "Back"),
+            ExerciseEntity("curl", "Bicep Curl", "Arms"),
+            ExerciseEntity("tricep", "Tricep Pushdown", "Arms"),
+        )
+    }
 }

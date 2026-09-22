@@ -1,21 +1,27 @@
 package com.fitlog.app.ui.auth
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.fitlog.app.data.AppPreferences
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.launch
 import android.content.Context
 import androidx.credentials.CredentialManager
 import androidx.credentials.GetCredentialRequest
 import androidx.credentials.GetCredentialResponse
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.fitlog.app.data.AppPreferences
+import com.fitlog.app.data.FitLogRepository
+import com.fitlog.app.data.PasswordUtil
+import com.fitlog.app.data.UserEntity
 import com.google.android.libraries.identity.googleid.GetGoogleIdOption
 import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import java.util.UUID
 
-class LoginViewModel(private val prefs: AppPreferences) : ViewModel() {
+class LoginViewModel(
+    private val prefs: AppPreferences,
+    private val repository: FitLogRepository,
+) : ViewModel() {
     private val _isLoading = MutableStateFlow(false)
     val isLoading: StateFlow<Boolean> = _isLoading.asStateFlow()
 
@@ -30,17 +36,17 @@ class LoginViewModel(private val prefs: AppPreferences) : ViewModel() {
         viewModelScope.launch {
             _isLoading.value = true
             _errorMessage.value = null
-            delay(600)
 
-            val isValid = prefs.validateLogin(email, pass)
-            if (!isValid) {
+            val user = repository.getUserByEmail(email)
+            if (user == null || user.passwordHash != PasswordUtil.hash(pass)) {
                 _errorMessage.value = "Account doesn't exist or incorrect password"
                 _isLoading.value = false
                 return@launch
             }
 
-            val name = email.substringBefore("@").replaceFirstChar { it.uppercase() }
-            prefs.saveUserSession(name, email)
+            // Returning user: their workouts are already tagged with this
+            // same userId in Room, so they reappear automatically.
+            prefs.setCurrentUserId(user.id)
             _isLoading.value = false
             onSuccess()
         }
@@ -54,9 +60,23 @@ class LoginViewModel(private val prefs: AppPreferences) : ViewModel() {
         viewModelScope.launch {
             _isLoading.value = true
             _errorMessage.value = null
-            delay(600)
-            prefs.registerUser(name, email, pass)
-            prefs.saveUserSession(name, email)
+
+            if (repository.getUserByEmail(email) != null) {
+                _errorMessage.value = "An account with this email already exists"
+                _isLoading.value = false
+                return@launch
+            }
+
+            // Brand-new account = fresh id = zero workouts, since every
+            // workout query is scoped by userId.
+            val user = UserEntity(
+                id = UUID.randomUUID().toString(),
+                name = name.trim(),
+                email = email.lowercase().trim(),
+                passwordHash = PasswordUtil.hash(pass),
+            )
+            repository.upsertUser(user)
+            prefs.setCurrentUserId(user.id)
             _isLoading.value = false
             onSuccess()
         }
@@ -66,11 +86,10 @@ class LoginViewModel(private val prefs: AppPreferences) : ViewModel() {
         viewModelScope.launch {
             _isLoading.value = true
             _errorMessage.value = null
-
             try {
                 val googleIdOption = GetGoogleIdOption.Builder()
                     .setFilterByAuthorizedAccounts(false)
-                    .setServerClientId("YOUR_WEB_CLIENT_ID.apps.googleusercontent.com") // Replace with your actual Google Cloud Console Client ID
+                    .setServerClientId("YOUR_WEB_CLIENT_ID.apps.googleusercontent.com")
                     .setAutoSelectEnabled(true)
                     .build()
 
@@ -80,7 +99,6 @@ class LoginViewModel(private val prefs: AppPreferences) : ViewModel() {
 
                 val credentialManager = CredentialManager.create(context)
                 val result = credentialManager.getCredential(context, request)
-
                 handleGoogleCredential(result, onSuccess)
             } catch (e: Exception) {
                 _errorMessage.value = e.localizedMessage ?: "Google sign-in failed"
@@ -98,7 +116,19 @@ class LoginViewModel(private val prefs: AppPreferences) : ViewModel() {
             val name = googleIdTokenCredential.displayName ?: "Google User"
             val email = googleIdTokenCredential.id
 
-            prefs.saveUserSession(name, email)
+            // Find-or-create: a returning Google user keeps their existing
+            // id (and workout history); a new one gets a fresh account.
+            val existing = repository.getUserByEmail(email)
+            val user = existing ?: UserEntity(
+                id = UUID.randomUUID().toString(),
+                name = name,
+                email = email.lowercase().trim(),
+                passwordHash = "",
+                ssoProvider = "google",
+            )
+            if (existing == null) repository.upsertUser(user)
+
+            prefs.setCurrentUserId(user.id)
             _isLoading.value = false
             onSuccess()
         } else {
