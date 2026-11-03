@@ -19,7 +19,7 @@ public final class LoginViewModel extends androidx.lifecycle.ViewModel {
     public static final java.lang.String TAG = "FitLogAuth";
     @org.jetbrains.annotations.NotNull()
     @java.lang.Deprecated()
-    public static final java.lang.String GOOGLE_WEB_CLIENT_ID = "YOUR_WEB_CLIENT_ID.apps.googleusercontent.com";
+    public static final java.lang.String GOOGLE_WEB_CLIENT_ID = "302125703926-tka3p7k251f1ktc4dkh1b3198hp5his0.apps.googleusercontent.com";
     @org.jetbrains.annotations.NotNull()
     private static final com.fitlog.app.ui.auth.LoginViewModel.Companion Companion = null;
     

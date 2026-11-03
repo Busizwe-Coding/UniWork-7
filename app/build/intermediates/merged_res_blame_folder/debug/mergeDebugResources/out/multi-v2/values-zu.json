@@ -72,23 +72,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\me\\Downloads\\FitLog_PROCLAUDE\\app\\src\\main\\res\\values-zu\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "43",
-                        "endOffsets": "55"
-                    },
-                    "to": {
-                        "startLines": "31",
-                        "startColumns": "4",
-                        "startOffsets": "3028",
-                        "endColumns": "43",
-                        "endOffsets": "3067"
-                    }
-                },
-                {
                     "source": "C:\\Users\\me\\.gradle\\caches\\8.9\\transforms\\9b933d2f5ca3b0f486770e017e45d45f\\transformed\\appcompat-1.2.0\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
@@ -120,6 +103,23 @@
                         "startOffsets": "3979,4090,4266,4401,4505,4673,4802,4926,5168,5328,5438,5603,5734,5892,6049,6110,6179",
                         "endColumns": "110,175,134,103,167,128,123,109,159,109,164,130,157,156,60,68,84",
                         "endOffsets": "4085,4261,4396,4500,4668,4797,4921,5031,5323,5433,5598,5729,5887,6044,6105,6174,6259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\me\\Downloads\\FitLog_FINALPOE\\app\\src\\main\\res\\values-zu\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "43",
+                        "endOffsets": "55"
+                    },
+                    "to": {
+                        "startLines": "31",
+                        "startColumns": "4",
+                        "startOffsets": "3028",
+                        "endColumns": "43",
+                        "endOffsets": "3067"
                     }
                 },
                 {

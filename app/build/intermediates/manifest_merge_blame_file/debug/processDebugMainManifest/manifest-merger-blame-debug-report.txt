@@ -9,11 +9,11 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-11-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:3:5-77
-11-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:3:22-74
+11-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:3:5-77
+11-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:3:22-74
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:4:5-67
-12-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:4:22-64
+12-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 13-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\me\.gradle\caches\8.9\transforms\e7d1ba7d1a8788558fc475dba2505bbc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
 13-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\me\.gradle\caches\8.9\transforms\e7d1ba7d1a8788558fc475dba2505bbc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:22-76
@@ -51,86 +51,86 @@
 26-->[androidx.core:core:1.15.0] C:\Users\me\.gradle\caches\8.9\transforms\2c54a7d0c864cb5f724366be2e42f81e\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
 27
 28    <application
-28-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:5:5-37:19
+28-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:5:5-37:19
 29        android:allowBackup="true"
-29-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:7:9-35
+29-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:7:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.15.0] C:\Users\me\.gradle\caches\8.9\transforms\2c54a7d0c864cb5f724366be2e42f81e\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="false"
 33        android:icon="@drawable/ic_fitlog"
-33-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:9:9-43
+33-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:9:9-43
 34        android:label="FitLog"
-34-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:8:9-31
+34-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:8:9-31
 35        android:localeConfig="@xml/locales_config"
-35-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:6:9-51
+35-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:6:9-51
 36        android:roundIcon="@drawable/ic_fitlog"
-36-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:10:9-48
+36-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:10:9-48
 37        android:supportsRtl="true"
-37-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:11:9-35
+37-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:11:9-35
 38        android:testOnly="true"
 39        android:theme="@style/Theme.FitLog" >
-39-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:12:9-44
+39-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:12:9-44
 40        <activity
-40-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:13:9-18:20
+40-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:13:9-18:20
 41            android:name="com.fitlog.app.MainActivity"
-41-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:13:19-47
+41-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:13:19-47
 42            android:exported="true" >
-42-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:13:48-71
+42-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:13:48-71
 43            <intent-filter>
-43-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:14:13-17:29
+43-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:14:13-17:29
 44                <action android:name="android.intent.action.MAIN" />
-44-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:15:17-69
-44-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:15:25-66
+44-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:15:17-69
+44-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:15:25-66
 45
 46                <category android:name="android.intent.category.LAUNCHER" />
-46-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:16:17-77
-46-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:16:27-74
+46-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:16:17-77
+46-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:16:27-74
 47            </intent-filter>
 48        </activity>
 49        <!-- Real-time push from our server (Firebase Cloud Messaging) -->
 50        <service
-50-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:20:9-24:19
+50-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:20:9-24:19
 51            android:name="com.fitlog.app.data.FitLogMessagingService"
-51-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:20:18-61
+51-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:20:18-61
 52            android:exported="false" >
-52-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:20:62-86
+52-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:20:62-86
 53            <intent-filter>
-53-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:21:13-23:29
+53-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:21:13-23:29
 54                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-54-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:22:17-78
-54-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:22:25-75
+54-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:22:17-78
+54-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:22:25-75
 55            </intent-filter>
 56        </service>
 57
 58        <meta-data
-58-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:25:9-137
+58-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:25:9-137
 59            android:name="com.google.firebase.messaging.default_notification_icon"
-59-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:25:20-90
+59-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:25:20-90
 60            android:resource="@drawable/ic_stat_notify" />
-60-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:25:91-134
+60-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:25:91-134
 61        <meta-data
-61-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:26:9-130
+61-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:26:9-130
 62            android:name="com.google.firebase.messaging.default_notification_channel_id"
-62-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:26:20-96
+62-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:26:20-96
 63            android:value="fitlog_default" />
-63-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:26:97-127
+63-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:26:97-127
 64
 65        <provider
 66            android:name="androidx.core.content.FileProvider"
-66-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:29:13-62
+66-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:29:13-62
 67            android:authorities="com.fitlog.app.fileprovider"
-67-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:30:13-64
+67-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:30:13-64
 68            android:exported="false"
-68-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:31:13-37
+68-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:31:13-37
 69            android:grantUriPermissions="true" >
-69-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:32:13-47
+69-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:32:13-47
 70            <meta-data
-70-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:33:13-35:54
+70-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:33:13-35:54
 71                android:name="android.support.FILE_PROVIDER_PATHS"
-71-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:34:17-67
+71-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:34:17-67
 72                android:resource="@xml/file_paths" />
-72-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:35:17-51
+72-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:35:17-51
 73        </provider>
 74
 75        <activity
@@ -367,10 +367,10 @@
 200            android:exported="false" >
 200-->[com.google.firebase:firebase-messaging:24.1.0] C:\Users\me\.gradle\caches\8.9\transforms\8bb9e2cae01422a2ae262e604cf27972\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:49:13-37
 201            <intent-filter android:priority="-500" >
-201-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:21:13-23:29
+201-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:21:13-23:29
 202                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-202-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:22:17-78
-202-->C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:22:25-75
+202-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:22:17-78
+202-->C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:22:25-75
 203            </intent-filter>
 204        </service>
 205

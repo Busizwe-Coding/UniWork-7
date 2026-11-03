@@ -199,6 +199,6 @@ class LoginViewModel(
         // >>> PUT YOUR GOOGLE "WEB APPLICATION" OAUTH CLIENT ID HERE <<<
         // Google Cloud Console -> APIs & Services -> Credentials -> Create OAuth client ID -> Web application.
         // (An "Android" OAuth client for package com.fitlog.app + your SHA-1 must also exist in the same project.)
-        const val GOOGLE_WEB_CLIENT_ID = "YOUR_WEB_CLIENT_ID.apps.googleusercontent.com"
+        const val GOOGLE_WEB_CLIENT_ID = "302125703926-tka3p7k251f1ktc4dkh1b3198hp5his0.apps.googleusercontent.com"
     }
 }

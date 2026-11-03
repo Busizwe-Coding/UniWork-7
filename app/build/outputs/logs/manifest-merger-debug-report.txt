@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:28:9-36:20
+INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:grantUriPermissions
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:32:13-47
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:32:13-47
 	android:authorities
-		INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:30:13-64
+		INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:30:13-64
 	android:exported
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:29:13-62
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:29:13-62
 manifest
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:2:1-38:12
 MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\me\.gradle\caches\8.9\transforms\60dc3dca8450ccdef7ff40754492bd84\transformed\navigation-common-2.8.5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\me\.gradle\caches\8.9\transforms\912fbde1049915148651af2c2ce31c77\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] C:\Users\me\.gradle\caches\8.9\transforms\1aa181676fb6730e07462a09eb166c8c\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
@@ -131,21 +131,21 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\me\.gradle\cache
 MERGED from [androidx.print:print:1.0.0] C:\Users\me\.gradle\caches\8.9\transforms\fe3c4e9a2d4a285d157fdd5ce85c1652\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\me\.gradle\caches\8.9\transforms\479ca770e0d2e87d9607f6ff663c00b0\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
 	package
-		INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:3:5-77
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:3:5-77
 MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\me\.gradle\caches\8.9\transforms\8bb9e2cae01422a2ae262e604cf27972\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:23:5-77
 MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\me\.gradle\caches\8.9\transforms\8bb9e2cae01422a2ae262e604cf27972\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:23:5-77
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:3:22-74
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:3:22-74
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:4:5-67
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\me\.gradle\caches\8.9\transforms\e7d1ba7d1a8788558fc475dba2505bbc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\me\.gradle\caches\8.9\transforms\e7d1ba7d1a8788558fc475dba2505bbc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\me\.gradle\caches\8.9\transforms\877160d4179f21a01bed9710df5ea0e1\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
@@ -157,10 +157,10 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Use
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\me\.gradle\caches\8.9\transforms\9a81cc30d0e51a31f62d1dd1b4b369bf\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\me\.gradle\caches\8.9\transforms\9a81cc30d0e51a31f62d1dd1b4b369bf\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:5:5-37:19
-INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:5:5-37:19
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:5:5-37:19
+INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:5:5-37:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\me\.gradle\caches\8.9\transforms\e7d1ba7d1a8788558fc475dba2505bbc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\me\.gradle\caches\8.9\transforms\e7d1ba7d1a8788558fc475dba2505bbc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\me\.gradle\caches\8.9\transforms\343e2d3ef16d7060a9bc4607e5ba19b0\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:23:5-50:19
@@ -224,73 +224,73 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\me\.gradle\caches\8.9\transforms\479ca770e0d2e87d9607f6ff663c00b0\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\me\.gradle\caches\8.9\transforms\479ca770e0d2e87d9607f6ff663c00b0\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml
 	android:localeConfig
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:6:9-51
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:6:9-51
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] C:\Users\me\.gradle\caches\8.9\transforms\2c54a7d0c864cb5f724366be2e42f81e\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:8:9-31
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:8:9-31
 	android:roundIcon
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:10:9-48
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:10:9-48
 	android:icon
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:12:9-44
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:12:9-44
 activity#com.fitlog.app.MainActivity
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:13:9-18:20
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:13:9-18:20
 	android:exported
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:13:48-71
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:13:48-71
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:14:13-17:29
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:16:27-74
 service#com.fitlog.app.data.FitLogMessagingService
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:20:9-24:19
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:20:9-24:19
 	android:exported
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:20:62-86
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:20:62-86
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:20:18-61
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:20:18-61
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:21:13-23:29
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:21:13-23:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:22:17-78
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:22:17-78
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:22:25-75
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:22:25-75
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:25:9-137
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:25:9-137
 	android:resource
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:25:91-134
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:25:91-134
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:25:20-90
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:25:20-90
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:26:9-130
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:26:9-130
 	android:value
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:26:97-127
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:26:97-127
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:26:20-96
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:26:20-96
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:33:13-35:54
+ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:33:13-35:54
 	android:resource
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:35:17-51
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:35:17-51
 	android:name
-		ADDED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml:34:17-67
+		ADDED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml:34:17-67
 uses-sdk
-INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\me\.gradle\caches\8.9\transforms\60dc3dca8450ccdef7ff40754492bd84\transformed\navigation-common-2.8.5\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\me\.gradle\caches\8.9\transforms\60dc3dca8450ccdef7ff40754492bd84\transformed\navigation-common-2.8.5\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\me\.gradle\caches\8.9\transforms\912fbde1049915148651af2c2ce31c77\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:20:5-44
@@ -524,9 +524,9 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\me\.gradle\cach
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\me\.gradle\caches\8.9\transforms\e7d1ba7d1a8788558fc475dba2505bbc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
-		INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\me\.gradle\caches\8.9\transforms\e7d1ba7d1a8788558fc475dba2505bbc\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\me\.gradle\caches\8.9\transforms\8bb9e2cae01422a2ae262e604cf27972\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:22:5-79

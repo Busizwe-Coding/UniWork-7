@@ -73,10 +73,10 @@ com.fitlog.app-ui-tooling-preview-release-71 C:\Users\me\.gradle\caches\8.9\tran
 com.fitlog.app-runtime-saveable-release-72 C:\Users\me\.gradle\caches\8.9\transforms\fb75e4d196bb0542d4ca5dcc31b89373\transformed\runtime-saveable-release\res
 com.fitlog.app-lifecycle-viewmodel-savedstate-2.8.7-73 C:\Users\me\.gradle\caches\8.9\transforms\fbec18c8c7b9872111486dc3ba847df2\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
 com.fitlog.app-material-icons-core-release-74 C:\Users\me\.gradle\caches\8.9\transforms\fcff53276362bc456796b9365e100a1f\transformed\material-icons-core-release\res
-com.fitlog.app-pngs-75 C:\Users\me\Downloads\FitLog_PROCLAUDE\app\build\generated\res\pngs\debug
-com.fitlog.app-resValues-76 C:\Users\me\Downloads\FitLog_PROCLAUDE\app\build\generated\res\resValues\debug
-com.fitlog.app-packageDebugResources-77 C:\Users\me\Downloads\FitLog_PROCLAUDE\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.fitlog.app-packageDebugResources-78 C:\Users\me\Downloads\FitLog_PROCLAUDE\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.fitlog.app-debug-79 C:\Users\me\Downloads\FitLog_PROCLAUDE\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.fitlog.app-debug-80 C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\debug\res
-com.fitlog.app-main-81 C:\Users\me\Downloads\FitLog_PROCLAUDE\app\src\main\res
+com.fitlog.app-pngs-75 C:\Users\me\Downloads\FitLog_FINALPOE\app\build\generated\res\pngs\debug
+com.fitlog.app-resValues-76 C:\Users\me\Downloads\FitLog_FINALPOE\app\build\generated\res\resValues\debug
+com.fitlog.app-packageDebugResources-77 C:\Users\me\Downloads\FitLog_FINALPOE\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.fitlog.app-packageDebugResources-78 C:\Users\me\Downloads\FitLog_FINALPOE\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.fitlog.app-debug-79 C:\Users\me\Downloads\FitLog_FINALPOE\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.fitlog.app-debug-80 C:\Users\me\Downloads\FitLog_FINALPOE\app\src\debug\res
+com.fitlog.app-main-81 C:\Users\me\Downloads\FitLog_FINALPOE\app\src\main\res
