@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fit_dark_green">#3BB100</color>
+    <color name="fit_green">#20D200</color>
+    <color name="fit_light_green">#92FF6E</color>
+    <string name="app_name">FitLog</string>
+    <style name="Theme.FitLog" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:colorAccent">#20D200</item>
+        <item name="android:navigationBarColor">#20D200</item>
+        <item name="android:statusBarColor">#20D200</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

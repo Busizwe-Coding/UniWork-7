@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+color fit_dark_green
+color fit_green
+color fit_light_green
+drawable ic_fitlog
+drawable ic_stat_notify
+string app_name
+style Theme.FitLog
+xml file_paths
+xml locales_config

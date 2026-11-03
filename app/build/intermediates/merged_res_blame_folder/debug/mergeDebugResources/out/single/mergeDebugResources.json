@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.fitlog.app-debug-79:/xml_file_paths.xml.flat",
+        "source": "com.fitlog.app-main-81:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.fitlog.app-debug-79:/xml_locales_config.xml.flat",
+        "source": "com.fitlog.app-main-81:/xml/locales_config.xml"
+    },
+    {
+        "merged": "com.fitlog.app-debug-79:/drawable_ic_fitlog.xml.flat",
+        "source": "com.fitlog.app-main-81:/drawable/ic_fitlog.xml"
+    },
+    {
+        "merged": "com.fitlog.app-debug-79:/drawable_ic_stat_notify.xml.flat",
+        "source": "com.fitlog.app-main-81:/drawable/ic_stat_notify.xml"
+    }
+]
