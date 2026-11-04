@@ -3,7 +3,7 @@
 FitLog is a native Android strength-training and workout tracking application built with Kotlin and Jetpack Compose.
 
 The application is designed to help users create and track workouts, record exercises and sets, review workout history, and manage their profile and settings. FitLog is designed with an offline-first approach so users can continue recording workouts without an active internet connection.
-Video: https://youtu.be/TGcvXE17mU8?si=W6iz0rjRtFZFmR7q
+Video: https://youtu.be/b5OKxvDjq5Y
 
 ## Features
  
